@@ -9,8 +9,6 @@ class AlarmClock:
 
     def set_alarm(self, alarm):
         self.alarm = alarm
-        if alarm == False:
-            print('You turned your alarm off')
 
     def set_alarm_time(self, wake_up):
         self.alarm_time = wake_up
