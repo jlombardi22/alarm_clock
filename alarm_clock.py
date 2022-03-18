@@ -5,7 +5,7 @@ class AlarmClock:
         self.alarm = alarm
 
     def set_current_time(self, updated_current_time):
-        self.current_time == updated_current_time
+        self.current_time = updated_current_time
 
     def set_alarm(self, alarm):
         self.alarm = alarm
